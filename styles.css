@@ -3,3 +3,9 @@ p.article {
     font-size: 2em;
     color: #8852a7;
 }
+
+h1.fun {
+  font-weight: 100
+  font-family: Helvetica, sans-serif;
+  color: #8852a770;
+}
