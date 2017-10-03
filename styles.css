@@ -5,7 +5,8 @@ p.article {
 }
 
 h1.fun {
-  font-weight: 100
-  font-family: Helvetica, sans-serif;
-  color: #4354a7;
+    font-family: Helvetica, sans-serif;
+    color: #4354a7;
+    font-weight: 100
+    
 }
