@@ -1,12 +1,47 @@
-p.article {
-    font-family: Helvetica, sans-serif;
-    font-size: 4em;
-    color: #8852a7;
+/* Page */
+#page {     
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body { 
+    color:#5f6366; 
+    font-size: 1.3em;
+    line-height: 1.3em; 
 }
 
-h1.fun {
-    font-family: Helvetica, sans-serif;
-    border: 2px dotted #88ae71;
-    color: #4354a7;
-    font-weight: 100
+/* Headings */
+h1 {
+    color: #86b3d1;
+    font-size: 3em;
+    font-weight: 200;
 }
+h2, h3, h4, h5, h6 {
+    color:#4d6d9a;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+/* Header */
+#header { background:#eee; }
+#header-inner { margin:0 auto; padding:10px; width:970px;background:#fff;}
+
+/* Menu */
+#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right;}
+#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+#top-nav ul li a { display:block; margin:0; padding:8px 20px; color: #86b3d1; text-decoration:square;}
+#top-nav ul li.active a, #top-nav ul li a:hover { color:#4d6d9a;}
+
+/* Sidebar */
+#content #sidebar { padding:0; float:left; width:200px;}
+#content #sidebar .widget { margin:0 0 12px; padding:8px 8px 8px 13px;line-height:1.4em;}
+#content #sidebar .widget ul li { padding:4px 0; width:185px;}
+#content #sidebar .widget ul li { 
+    color: #86b3d1; 
+    text-decoration:square; 
+    padding:4px 8px 4px 16px;
+}
+
+/* Footer */
+#footer { background:#eee;}
+#footer-inner { margin:0 auto; width:970px; padding:10px;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}
