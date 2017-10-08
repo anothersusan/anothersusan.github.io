@@ -1,3 +1,4 @@
+/* main */
 body {
     background-color: #ffffff;
     margin: 48px;
@@ -27,6 +28,7 @@ h3 {
     color: #aaa;
     font-size: 1.3em;
     font-weight: 400; 
+    margin-bottom: 6px;
 }
 
 p {    
@@ -98,7 +100,7 @@ div.section {
     border-top: 2px dotted #aaa;
 }
 
-/* column styles */
+/* 3-column styles */
 div#col1 {
     width: 31%;
     float: left; 
@@ -121,11 +123,33 @@ div.noWrap {
 
 img.centered {
     display: block;
-    margin-top: 16px;
+    border: 1px solid #6495ed;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
-    padding: 8px;
-    width: 94%;
-    border: 1px solid #6495ed;
+    padding: 16px;
+    width: 90%;
 }
+
+/* footer info */
+div#icons {
+    width: 12%;
+    float: left; 
+}
+
+img#icons {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 90%;
+}
+
+/* blog */
+p.blog {
+    margin-top: 2px;
+}
+
